@@ -1,0 +1,7 @@
+#body {
+  background-image: url('../render1.png');
+}
+div{
+  background-color: @color;
+  width: 100%;
+}

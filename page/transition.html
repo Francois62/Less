@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <link rel="stylesheet" type="text/css" href="../lessc/style.css" />
+   <title>Compass</title>
+
+   <!-- Custom CSS -->
+ </head>
+ <body>
+    <div class="content">
+        <div class="purple">
+   <div class="flower">
+       <div class="beauty-2">
+       </div>
+   <div class="right">
+   <div class="title"> <h1>LOREM IPSUM</h1></div>
+   <div class="text">
+
+  Sed cautela nimia in peiores haeserat plagas, ut narrabimus postea, aemulis consarcinantibus insidias graves apud Constantium, cetera medium principem sed siquid auribus eius huius modi quivis infudisset ignotus, acerbum et inplacabilem et in hoc causarum titulo dissimilem sui.
+
+  Constituendi autem sunt qui sint in amicitia fines et quasi termini diligendi. De quibus tres video sententias ferri, quarum nullam probo, unam, ut eodem modo erga amicum adfecti simus, quo erga nosmet ipsos, alteram, ut nostra in amicos benevolentia illorum erga nos benevolentiae pariter aequaliterque respondeat, tertiam, ut, quanti quisque se ipse facit, tanti fiat ab amicis.
+
+  Cum haec taliaque sollicitas eius aures everberarent expositas semper eius modi rumoribus et patentes, varia animo tum miscente consilia, tandem id ut optimum factu elegit: et Vrsicinum primum ad se venire summo cum honore mandavit ea specie ut pro rerum tunc urgentium captu disponeretur concordi consilio, quibus virium incrementis Parthicarum gentium a arma minantium impetus frangerentur.
+  </div>
+  <div class="switch">
+  <a class="btn" href="../index.html" data-transition="fade">SWITCH</button></a>
+ </div>
+ </div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js">
+</script>
+<script>
+$(function(){
+   setInterval(function(){
+      $(".flower").animate({marginLeft:-2000},10000,function(){
+         $(this).css({marginLeft:0}).find(".flower").after($(this).find(".flower"));
+      })
+   }, 2000);
+});
+  // $(function switch() {
+
+    // });
+    // $('.btn').click(function() {
+    //   $('*').hide(1000);
+    // });
+  //
+</script>
+ </body>
+ </html>
